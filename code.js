@@ -1,17 +1,17 @@
 const clock = 333;
 let protecc = document.getElementById("protecc");
-let run = false;
+let canrun = false;
 
 const connectToHTML = function() {
   protecc = document.getElementById("protecc");
   
-  if (run === true) {
+  if (canrun === true) {
     protecc.innerHTML += "c";
   }
 }
 
 function run() {
-  run = true;
+  canrun = true;
 }
 
 setInterval(connectToHTML, clock);
