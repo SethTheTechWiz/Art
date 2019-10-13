@@ -6,7 +6,7 @@ const connectToHTML = function() {
   protecc = document.getElementById("protecc");
   
   if (canrun === true) {
-    protecc.innerHTML += "c";
+    protecc.innerHTML = protecc.innerHTML + "c";
   }
 }
 
